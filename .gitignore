@@ -1,0 +1,4 @@
+bazel-bin
+bazel-out
+bazel-terrain_generation
+bazel-testlogs
