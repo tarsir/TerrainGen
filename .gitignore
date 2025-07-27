@@ -2,3 +2,7 @@ bazel-bin
 bazel-out
 bazel-TerrainGen
 bazel-testlogs
+external
+.cache/
+compile_commands.json
+output.json

@@ -12,7 +12,8 @@ cc_binary(
   name = "peru",
   srcs = ["src/main.cpp"],
   copts = [],
-  deps = [":libraries"]
+  deps = [":libraries"],
+  data = ["config.json"]
 )
 
 alias(
