@@ -3,8 +3,8 @@
 
 cc_library(
   name = "libraries",
-  srcs = ["src/map.cpp", "src/voronoi.cpp"],
-  hdrs = ["src/map.h"],
+  srcs = glob(["src/*.cpp"], exclude=["src/main.cpp"]),
+  hdrs = glob(["src/*.h"]),
   deps = ["@nlohmann_json//:json"]
 )
 
