@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include "map.h"
+#include "nlohmann/json.hpp"
+#include "src/map.h"
 
 
 std::vector< std::pair<int, int> > generateFeatureCoords(int mapSize, int featureCount) {
