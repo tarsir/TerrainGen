@@ -9,7 +9,7 @@ cc_library(
 )
 
 cc_binary(
-  name = "peru",
+  name = "generate",
   srcs = ["src/main.cpp"],
   copts = [],
   deps = [":libraries"],
